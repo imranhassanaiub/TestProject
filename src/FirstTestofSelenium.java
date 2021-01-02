@@ -28,6 +28,8 @@ public class FirstTestofSelenium {
 		
         Select leaveType = new Select(driver.findElement(By.xpath("/html/body/div[1]/div[3]/div[1]/div[2]/form/fieldset/ol/li[2]/select"))); 
         leaveType.selectByVisibleText("US - Personal");
+        
+        System.out.println("Test output");
 	}
 
 }
